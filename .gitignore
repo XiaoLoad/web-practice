@@ -1,0 +1,73 @@
+# 忽略node_modules文件夹
+node_modules/
+
+# 忽略构建输出文件夹
+/dist
+build/
+
+# 忽略本地环境文件
+.env.local
+.env.*.local
+
+# 忽略日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# 忽略编辑器生成的文件和文件夹
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略编译生成的class文件
+*.class
+
+# 忽略IDE生成的文件
+.idea/
+*.iml
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略Spring Boot相关文件
+# 忽略Spring Boot的临时文件夹
+spring-boot-*.tmp
+
+# 忽略Java编译输出文件夹
+bin/
+out/
+
+# 忽略Maven相关文件
+.pom.xml.swp
+*.pom.xml.swp
+.pom.xml.bak
+*.pom.xml.bak
+.mvn/
+.mvn/wrapper/
+mvnw
+mvnw.cmd
+target/
+
+# 忽略Gradle相关文件
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+.settings/
+*.ipr
+*.iws
+
+# 忽略Docker相关文件
+.dockerignore
+
+# 忽略其他临时文件
+*.tmp
+*.tmp.*
+*.bak
+*.bak.*
